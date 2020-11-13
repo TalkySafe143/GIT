@@ -1,0 +1,14 @@
+GIT es una herramienta para poder guardar progresos y colaborar en estos mediante la famosa pagina de GitHub
+Ya tengo mi cuenta de GitHub asi que actualmente, los archivos tienen que seguir unos pasos para ser subidos a GitHub
+Estos comandos se introducen en la consola.
+Antes que nada hay que introducir "git clone <<url dado por GitHub>>"
+1. git add "nombre del archivo" para agregar una archivo al repositorio
+2. git add -a para agregar todo lo que tenga en el proyecto
+3. git commit -m "mensaje" este es para agregar un commit-cambio
+4. git push este, para subir los cambios a GitHub
+
+Ahora, estos comandos se utilizarán para extraer archivos o manejar diferentes versiones.
+1. git pull para extraer archivos de GitHub
+2. git checkout -b "Nombre" Para hacer una nueva marca/linea temporal del codigo
+3. git checkout "nombre del branch" para cambiar a otra marca 
+4. git migrate para migrar la informacion de una marca a otra
